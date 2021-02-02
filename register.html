@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--navigation-->
+    <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active">HOME</a>
+        <a href="products.html">PRODUCTS</a>
+        <a href="index.html#about">ABOUT US</a>
+        <a href="special.html">SPECIALS</a>
+        <a href="testimonials.html">TESTIMONIALS</a>
+        <a href="blog.html">BLOG</a>
+        <a href="shop.html">SHOP NOW</a>
+        <a href="register.html">BET MEMBERSHIP</a>
+        <a href="#contacts">CONTACTS</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+        
+      </div>
+
+
+    <!--end of navigation-->
+    <style>
+        body {
+          font-family: Arial, Helvetica, sans-serif;
+          background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,102,153,1) 100%);
+        }
+        
+        * {
+          box-sizing: border-box;
+        }
+        
+        /* Add padding to containers */
+        .container {
+          padding: 16px;
+          background-color: white;
+        }
+        
+        /* Full-width input fields */
+        input[type=text], input[type=password] {
+          width: 100%;
+          padding: 15px;
+          margin: 5px 0 22px 0;
+          display: inline-block;
+          border: none;
+          background: #f1f1f1;
+        }
+        
+        input[type=text]:focus, input[type=password]:focus {
+          background-color: #ddd;
+          outline: none;
+        }
+        
+        /* Overwrite default styles of hr */
+        hr {
+          border: 1px solid #f1f1f1;
+          margin-bottom: 25px;
+        }
+        
+        /* Set a style for the submit button */
+        .registerbtn {
+          background-color: #006699;
+          color: white;
+          padding: 16px 20px;
+          margin: 8px 0;
+          border: none;
+          cursor: pointer;
+          width: 100%;
+          opacity: 0.9;
+        }
+        
+        .registerbtn:hover {
+          opacity: 1;
+        }
+        
+        /* Add a blue text color to links */
+        a {
+          color: dodgerblue;
+        }
+        
+        /* Set a grey background color and center the text of the "sign in" section */
+        .signin {
+          background-color: #f1f1f1;
+          text-align: center;
+        }
+        </style>
+        </head>
+        <body>
+        
+        <form action="/action_page.php">
+          <div class="container">
+            <h1 style="text-align: center;">Register for BET ONLINE STORE membership!</h1>
+            <p>Please fill in this form to create an account.</p>
+            <hr>
+        
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="Enter Email" name="email" id="email" required>
+        
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+        
+            <label for="psw-repeat"><b>Repeat Password</b></label>
+            <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+            <hr>
+            <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+        
+            <button type="submit" class="registerbtn">Register</button>
+          </div>
+          
+          <div class="container signin">
+            <p>Already have an account? <a href="#">Sign in</a>.</p>
+          </div>
+        </form>
+<br><br>
+      <!--=================CONTACT SECTION-=================================================-->
+
+<div class="container" id="contacts">
+  <br><br>
+  <p class="h2 text-center text-bold" style="color: #006699; font-weight: bolder;">CONTACT US</p>
+  <br>
+<div class="container-fluid contact-us">
+  
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-5 contact-section">
+            <h3>Leave us a feedback</h3>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <input type="text" class="form-control" placeholder = "Name ..." id="name">
+                </div>
+                <div class="col-md-6">
+                    <input type="text" class="form-control" placeholder="Email ...">
+                </div>
+            </div>
+            <br>
+            <textarea class="form-control" cols="10" rows="10">Enter text here</textarea>
+            <br>
+            <button class="btn btn-primary" id="submit">SEND FEEDBACK</button>
+
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-4">
+
+            
+            <ul style="list-style-type:none;">
+              <br><br><br>
+              <li><h4>KIGALI/Rwanda</h4></li>
+              <li><h4>betonlistore@gmai.com</h4> </li>
+              <li><h4>Tel: 0784688641</h4></li>
+             
+            </ul> 
+               
+        </div>
+        <div class="col-md-1"></div>                
+    </div>
+    </div>
+</div>
+<br><br>
+</body>
+</html>
+
+<script type="text/javascript">
+
+$(document).ready(function(){
+
+$('#submit').click(function() {
+    let name = $('#name').val();
+    alert(name + ' we have received your feedback. Thank you for reaching out to us.');
+})
+})
+
+</script>
+<!--===============END OF CONTACT SECTION=============================================-->
+
+</body>
+</html>

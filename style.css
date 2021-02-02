@@ -1,0 +1,481 @@
+/**styling the navbar****************************************************/
+
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color:rgba(0,0,0,0.8);
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 24px;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: rgba(0,0,0,0.8);
+}
+
+.topnav a.active {
+  background-color:#006699;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+/*******end of styling the navbar***************************************/
+/***************home styling*****************************************/
+#home{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.8)), url(https://www.nielsen.com/wp-content/uploads/sites/3/2019/09/its-in-the-bag-black-consumers-purchasing.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 95vh;
+    color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+/********end of home styling***************************************/
+
+/****************STYLING THE PRODUCT SECTION************************/
+
+.produit{
+    background-color: rgba(0,0,0,0.8);
+}
+.one {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .1s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .1s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .one:hover .image {
+    opacity: 0.5;
+  }
+  
+  .one:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #006699;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+
+  /********************/
+  .two {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .1s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .1s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .two:hover .image {
+    opacity: 0.5;
+  }
+  
+  .two:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #006699;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+  /*****************************************/
+  .three {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .1s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .1s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .three:hover .image {
+    opacity: 0.7;
+  }
+  
+  .three:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #006699;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+
+  /******************************/
+  .four {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .1s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .1s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .four:hover .image {
+    opacity: 0.7;
+  }
+  
+  .four:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #006699;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+/***********************************************/
+.five {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .1s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .1s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .five:hover .image {
+    opacity: 0.5;
+  }
+  
+  .five:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #006699;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+  /*************************************/
+
+  .six {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .1s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .1s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .six:hover .image {
+    opacity: 0.5;
+  }
+  
+  .six:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #006699;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+  /*******************************/
+  .seven {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .1s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .1s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .seven:hover .image {
+    opacity: 0.5;
+  }
+  
+  .seven:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #006699;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+  /*******************************/
+  .eight {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .1s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .1s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .eight:hover .image {
+    opacity: 0.5;
+  }
+  
+  .eight:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #006699;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+  /***********************************/
+  .nine {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .1s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .1s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .nine:hover .image {
+    opacity: 0.5;
+  }
+  
+  .nine:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #006699;
+    color: black;
+    font-weight: bolder;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+/************END OF PRODUCT SECTION******************************/
+/*******************contact us section*****************************/
+
+.social-icons {
+  margin-left: 18%;
+  margin-top: 10%;
+}
+.contact-section h3 {
+  margin-bottom: 5%;
+}
+.contact-us {
+  padding-top: 5%;
+  padding-bottom: 3%;
+  background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("https://i.pinimg.com/originals/44/c0/bd/44c0bd1f8d4fe008f44b039f3a960e2d.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+.contact-section textarea,
+.contact-section input {
+  background-color: transparent;
+  border-radius: 0px;
+  color: white;
+  border: 2px solid #f2f2f2;
+}
+.contact-section textarea:focus,
+.contact-section input:focus {
+  background-color: transparent;
+  color: white;
+  box-shadow: none;
+}
+.contact-section .btn {
+  border-radius: 0px;
+}
+/*********navigation bar***/
+
+/********************end of contact section***********************/

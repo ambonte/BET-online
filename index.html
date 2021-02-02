@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BET ONLINE STORE</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700;900&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+    <script
+  src="https://code.jquery.com/jquery-3.5.1.js"
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous"></script>
+  
+
+</head>
+<body>
+
+
+
+
+
+
+<div class="topnav" id="myTopnav">
+    <a href="#home" class="active">HOME</a>
+    <a href="products.html">PRODUCTS</a>
+    <a href="#about">ABOUT US</a>
+    <a href="special.html">SPECIALS</a>
+    <a href="testimonials.html">TESTIMONIALS</a>
+    <a href="blog.html">BLOG</a>
+    <a href="shop.html">SHOP NOW</a>
+    <a href="register.html">BET MEMBERSHIP</a>
+    <a href="#contacts">CONTACTS</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+    
+  </div>
+  
+  <div style="padding-left:16px" id="home">
+    <br><br><br><br><br><br><br><br>
+    <h1 style="color: white; font-size: 70px; font-weight: bolder;">BET ONLINE STORE</h1>
+    <h4>A never before shopping experience right here,</h4>
+    <h4>Shop with us online, save your time and money.</h4>
+    <h4>Experience the best most simple way of shoping!</h4>
+    <h4>A few clicks is all it takes!</h4>
+    <button type="button" class="btn btn-primary"><b><a style="color: white;" href="shop.html">SHOP NOW</a></b></button>
+    <button type="button" class="btn btn-outline-primary"><b><a style="color: white;" href="register.html">BET MEMBERSHIP</a></b></button>
+
+    
+  </div>
+
+<!--end of home navbar------------------------------------------------------------------>
+
+<!-- ==========ABOUT SECTION=======================================================-->
+
+<div id="about" class="container" style="text-align: center;">
+  <br><br>
+    <h1 style="color: #006699; font-size: 30px; font-weight: bolder;">ABOUT US</h1>
+    <div style="font-weight: bold; font-size: 30px;">
+    <p>BET online store is there for you</p>
+    <p>Explore our products</p>
+    <p>Order and receive your products online</p>
+    <p>Pay Online</p>
+    </div>
+</div>
+
+<!--====================END OF ABOUT SECTION=========================================-->
+
+<!--=================CONTACT SECTION-=================================================-->
+
+<div class="container" id="contacts">
+  <br><br>
+  <p class="h2 text-center text-bold" style="color: #006699; font-weight: bolder;">CONTACT US</p>
+  <br>
+<div class="container-fluid contact-us">
+  
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-5 contact-section">
+            <h3>Leave us a feedback</h3>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <input type="text" class="form-control" placeholder = "Name ..." id="name">
+                </div>
+                <div class="col-md-6">
+                    <input type="text" class="form-control" placeholder="Email ...">
+                </div>
+            </div>
+            <br>
+            <textarea class="form-control" cols="10" rows="10">Enter text here</textarea>
+            <br>
+            <button class="btn btn-primary" id="submit">SEND FEEDBACK</button>
+
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-4">
+
+            
+            <ul style="list-style-type:none;">
+              <br><br><br>
+              <li><h4>KIGALI/Rwanda</h4></li>
+              <li><h4>betonlistore@gmai.com</h4> </li>
+              <li><h4>Tel: 0784688641</h4></li>
+             
+            </ul> 
+               
+        </div>
+        <div class="col-md-1"></div>                
+    </div>
+    </div>
+</div>
+<br><br>
+</body>
+</html>
+
+<script type="text/javascript">
+
+$(document).ready(function(){
+
+$('#submit').click(function() {
+    let name = $('#name').val();
+    alert(name + ' we have received your feedback. Thank you for reaching out to us.');
+})
+})
+
+</script>
+<!--===============END OF CONTACT SECTION=============================================-->
+
+</body>
+</html>

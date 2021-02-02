@@ -1,0 +1,369 @@
+/****************STYLING THE PRODUCT SECTION************************/
+
+.produit{
+    background-color: rgba(0,0,0,0.8);
+}
+.one {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .1s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .1s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .one:hover .image {
+    opacity: 0.5;
+  }
+  
+  .one:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #006699;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+
+  /********************/
+  .two {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .1s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .1s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .two:hover .image {
+    opacity: 0.5;
+  }
+  
+  .two:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #006699;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+  /*****************************************/
+  .three {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .1s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .1s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .three:hover .image {
+    opacity: 0.7;
+  }
+  
+  .three:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #006699;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+
+  /******************************/
+  .four {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .1s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .1s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .four:hover .image {
+    opacity: 0.7;
+  }
+  
+  .four:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #006699;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+/***********************************************/
+.five {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .1s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .1s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .five:hover .image {
+    opacity: 0.5;
+  }
+  
+  .five:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #006699;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+  /*************************************/
+
+  .six {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .1s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .1s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .six:hover .image {
+    opacity: 0.5;
+  }
+  
+  .six:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #006699;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+  /*******************************/
+  .seven {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .1s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .1s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .seven:hover .image {
+    opacity: 0.5;
+  }
+  
+  .seven:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #006699;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+  /*******************************/
+  .eight {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .1s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .1s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .eight:hover .image {
+    opacity: 0.5;
+  }
+  
+  .eight:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #006699;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+  /***********************************/
+  .nine {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .1s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .1s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .nine:hover .image {
+    opacity: 0.5;
+  }
+  
+  .nine:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #006699;
+    color: black;
+    font-weight: bolder;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+/************END OF PRODUCT SECTION******************************/
